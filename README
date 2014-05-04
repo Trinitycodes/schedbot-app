@@ -1,0 +1,37 @@
+
+
+
+
+					SCHEDBOT is a smart scheduler for employers.  
+
+					BASICS
+
+					1. Must work using the functionality of the Woocommerce Plugin and the Groups Plugin
+
+					2. Upon Registration the Employer is added to the Registered Groups and one of the package groups (Basic/Premium/Platinum/etc).
+
+					3. 2 other groups are created when the employer registers, one which is named by a form field filled out be the employer in the registration form
+						and will be suggested to be the name of the company.  The other will be a group for the employees.  This second group will also be created upon 
+						registration and will be named with the name of the first group plus -emp which will stand for employees.
+
+					4.  The person who registered for the account will then be the administrator of the company group and will have the capabilities to create new schedules, 
+						create new users, either other administrators or employees, and be able to add users, whether administrators or employees to the schedule.  
+
+					SCHEDULES
+
+					1. Scheduling will all be done on the front end.  
+
+					2. One page for the administrator of the company group to create a new employee.
+
+					3. One page for the administrator of the company group to create new schedules.  This will be a form where they can choose the start day and end day of 
+						that schedule (probably typically a month).  
+
+					4. One page to add or adjust employees to a schedule and send it out.  This page will look somewhat like the widgets page in the Wordpress Dashboard.  A calendar 
+						displaying all the days in blocks that are between the dates the user selected when they created the schedule will be in the center with a scrolling list on the right
+						of the employees for that company group.  The employer can then drag the employee they want onto the day that they want.  When they drop it, the employee 
+						open like a widget and allow the employer to select the times.   Just as on widgets, there will be a save button on the bottom, inside each employee widget.  Also 
+						on that page would be a button to send a link to that schedule to every employee that is on that schedule.  (The email that would be sent to the employees would 
+						just be a link they can click to view an uneditable schedule.  
+					
+						
+					OPTIONS
